@@ -1,0 +1,156 @@
+
+/*Base Styles*/	
+*{box-sizing: border-box;margin: 0;padding: 0;font-family: Serif-bold-italic, Helvetica, sans-serif;}
+
+body {	margin:0;
+		padding: 0;
+		background-color:white;
+		
+}
+
+h1{color: black;
+text-align: center;
+padding: 60px}
+
+.rice{color: black;
+		text-align: center;
+		width: 150px;
+		border: 1px solid black;
+		background-color: #EE9D8C;
+		position: relative;
+		float: right;
+
+		}
+
+.beans{color: white;
+		text-align: center;
+		width: 150px;
+		border: 1px solid black;
+		background-color: #FF5733;
+		position: relative;
+		float: right;
+		}
+
+.apple{color: black;
+		text-align: center;
+		width: 150px;
+		border: 1px solid black;
+		background-color: #ffe699;
+		position: relative;
+		float: right;
+		}
+
+
+#rice{background-color: grey;
+		width: 300px;
+		height: 120px;
+		/*border: 1px solid black;*/
+		float: left;
+		overflow: scroll;
+		outline-style: solid;
+		position: relative;	
+		
+		}
+
+#beans{background-color: grey;
+		width: 300px;
+		height: 120px;
+		/*border: 1px solid black;*/
+		float: left;
+		overflow: scroll;	
+		outline-style: solid;
+	    position: relative;
+	    
+	   
+		}
+
+#apple{background-color: grey;
+		width: 300px;
+		height: 120px;
+		/*border: 1px solid black;*/
+		float: right;
+		overflow: scroll;
+		outline-style: solid;
+		position: relative;	
+		
+		
+		}
+
+
+#rice1{padding: 40px 20px 20px 10px;
+	color: black;
+		position: relative;	
+		}
+
+#beans1{padding: 40px 20px 20px 10px;
+	color: black;
+		position: relative;	
+		}
+
+#apple1{padding: 40px 20px 20px 10px;
+	color: black;
+		position: relative;	
+		}
+
+
+
+/* Media Query for Devices above 992px */
+@media (min-width: 992px) {
+
+	#rice {width:30%;margin-left: 3%;
+
+			}
+
+	#beans {width:30%;margin-left: 2%;
+		
+			}
+
+	#apple {width:30%;
+		margin-right: 3%;
+			}
+}
+
+/* Media Query for Devices between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#rice  {width:45%;
+			margin-left: 2.5%;
+			margin-bottom: 10%;
+			float: left;
+			}
+
+
+	#beans {width: 45%;
+			float: right;
+			margin-left:5%;
+			margin-right: 2.5%;
+			margin-bottom:10%;
+			}
+
+	#apple {width: 95%;
+			margin-left:2.5%;
+			float:left;
+			
+			}
+}
+
+/* Media Query for Devices below 767px */
+@media (min-width: 0px) and (max-width: 767px){
+
+	#rice {width:75%;
+			margin-bottom: 10%;
+			margin-left: 12.5%;
+			float:left;
+			}
+
+	#beans {width:75%;
+			margin-bottom: 10%;
+			margin-left: 12.5%;
+			}
+
+	#apple {width:75%;
+			margin-bottom: 10%;
+			margin-left: 12.5%;
+			float: left;
+			}
+}
